@@ -1,5 +1,5 @@
 # **Financial Fraud/Anomaly Detection Case Study**
-**Check the python notebook for the solution provide** [Click Here](https://github.com/abdulmalikadeyemo/Financial_Anomaly_Detection_CaseStudy/blob/main/financial_anomaly_detection.ipynb)
+**Check the python notebook for the complete solution** [Click Here](https://github.com/abdulmalikadeyemo/Financial_Anomaly_Detection_CaseStudy/blob/main/financial_anomaly_detection.ipynb)
 
 ## **The Case Study Problem Statement:**
 
@@ -23,13 +23,13 @@ Your task is to use any analytical technique of your choice to identify outliers
 
 ## **The Analytical Approach Solution- The Hypothesis:**
 
-- **Given the quality of the dataset provided and the amount of information available, the best approach to detecting anomalous transactions is to use a rule-based analysis**
+- Given the quality of the dataset provided and the amount of information available, the best approach to detecting anomalous transactions is to use a rule-based analysis.
 
 
-- **From the provided Data Dictionary, It states that the `BAT_NAME` column is an ID for a single journal posting, and all the transactions under a particular BAT_NAME ID must net to zero**
+- From the provided Data Dictionary, It states that the `BAT_NAME` column is an ID for a single journal posting, and all the transactions under a particular BAT_NAME ID must net to zero.
 
 
-- **Concretely, If the journal entries of a BAT_NAME ID is not balanced (i.e, does not net to zero), we can see that journal posting(entry) is anomalous or `not business as usual`**
+- Concretely, If the journal entries of a BAT_NAME ID is not balanced (i.e, does not net to zero), we can see that journal posting(entry) is anomalous or `not business as usual`
 
 
-- **Hence, our approach is to sum all the `Amount` column entries that belongs to a particular `BAT_NAME` ID and extract all the Journal Posting (Transactions) whoose `Amount` does not net to zero**
+- Hence, our approach is to sum all the `Amount` column entries that belongs to a particular `BAT_NAME` ID and extract all the Journal Posting (Transactions) whoose `Amount` does not net to zero
